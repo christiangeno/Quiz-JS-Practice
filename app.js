@@ -39,8 +39,8 @@ function enter() {
 
 
   function submitQuiz() {
-    var answers = ["a", "c", "c", "a", "a"]; // Add correct answers for each question here
-    var totalQuestions = 5; // Set the total number of questions here
+    var answers = ["a", "c", "c", "a", "a"]; // Answers
+    var totalQuestions = 5; // Total Questions
     var score = 0;
 
     for (var i = 1; i <= totalQuestions; i++) {
